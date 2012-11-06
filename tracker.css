@@ -1,0 +1,61 @@
+svg.map {
+  background: #eee;
+  width: 960px;
+  height: 500px;
+}
+
+svg.prob {
+  background: #fff;
+  width: 400px;
+  height: 300px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.area {
+  fill: steelblue;
+}
+
+.states {
+    columns: 4 100px;
+    -webkit-columns:4 100px; /* Safari and Chrome */
+    -moz-columns:4 100px; /* Firefox */
+}
+.statename {
+    width: 10em;
+    display: inline-block;
+}
+
+ul.states li {
+	padding-bottom: 5px;
+}
+
+.pct {
+	width: 3em;
+}
+
+.pctci {
+	width: 2em;
+}
+
+line.highci, line.lowci {
+	stroke: #000;
+}
+line.break {
+	stroke: #f00;
+}
+rect.ci {
+	fill: #eee; 
+}
+
+.obama {
+	background: steelblue !important;
+}
+.romney {
+	background: firebrick !important;
+}
